@@ -1,0 +1,11 @@
+﻿bin/
+build/
+*.exe
+*.dll
+*.obj
+*.o
+*.pdb
+*.bak
+*.zip
+.vscode/
+.vs/
