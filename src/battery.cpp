@@ -1,4 +1,8 @@
-﻿
+﻿// SPDX-License-Identifier: GPL-3.0-only
+// Battery control logic adapted from Lenovo Legion Toolkit.
+// Original copyright: (c) 2024 Bartosz Cichecki
+// Native C++ modifications: Dharaneesh, 2026.
+
 #include <windows.h>
 #include <cstdio>
 #include <cstring>
@@ -139,5 +143,6 @@ int main(int argc, char* argv[])
     CloseHandle(mutex);
     return exitCode;
 }
+
 
 
